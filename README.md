@@ -82,9 +82,3 @@ A conexão com o banco está na função `conectar()` do arquivo `banco.py`. Se 
 - **`Not all parameters were used in the SQL statement`**: a quantidade de `%s` no `INSERT` do `banco.py` precisa ser igual à quantidade de colunas e de valores.
 - **`INSERT command denied`**: o `INSERT` do `banco.py` precisa apontar para a tabela `jogos`, que é a única em que o usuário tem permissão.
 
-## Próximos passos
-
-- Listar os jogos cadastrados em uma tabela na tela
-- Editar e excluir jogos
-- Filtrar por plataforma, gênero ou status
-- Gráfico com a quantidade de jogos por gênero
